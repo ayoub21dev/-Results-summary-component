@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'Hanken Grotesk' ;
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+  
+    font-weight: 100 900;
+    font-style: normal;
+}
+body{
+    font-family:'Hanken Grotesk';
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(221, 100%, 96%);
+
+    
+    
+}
+
+.all{
+   background-color: white;
+    width: 580px;
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    
+}
+.reslat{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 280px;
+    border-radius: 20px;
+    height: 400px;
+ 
+   
+}
+.summary{
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    border-radius: 10px 20px 20px 10px;
+    
+}
+.reslta-text{
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    font-size: 20px;
+  margin-bottom: 1.2rem;
+  margin-top: 1.5rem;
+    
+}
+.circule{
+    height: 160px;
+    width: 160px;
+    background:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+ 
+    
+}
+.cricl76{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.circl100{
+    color: hsl(241, 100%, 89%);
+    font-size: 12px;
+    text-align: center;
+}
+.Great-text{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin: 18px 5px;
+   
+}
+
+.parg-text{
+    color:hsl(241, 100%, 89%) ;
+    font-size: 12px;
+    text-align: center;
+    
+}
+.forcenter{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+   
+}
+
+/* ====================card2=============== */
+
+.flx{
+    display: flex;
+    justify-content: space-between;
+}
+.iconH{
+    display: flex ;
+    gap: 10px;
+}
+.reactoin, .Memory,.Verbal,.Visual{
+    width: 240px;
+    padding: 15px 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.reactoin{
+background-color: #fff6f7 ;
+}
+.Memory{
+background-color: #fffaf4 ;
+   
+}
+.Verbal{
+    background-color: #f2fdf9 ;
+
+}
+.Visual{
+    background-color: #f4f4fe ;
+
+}
+.nuber{
+    color:#b1aeb2;
+    font-size: 15px;
+}
+
+.BTN-continue{
+    background-color: #303b59;
+    border: none;
+    width: 240px;
+    border-radius: 25px;
+    padding: 15px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+.BTN-continue:hover{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+
+}
+.Summaryy{
+    margin-top: 20px;
+    margin-left: 32px;
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
+}
